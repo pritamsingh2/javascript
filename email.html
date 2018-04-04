@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+var c=0;
+var d=0;
+
+
+var email = new String ("MeetAt@Wipro.com");
+for(var i=0; i<email.length;i++)
+{
+if(email.charAt(i)=="@")
+{
+c++;
+}
+if(email.charAt(i)=="."){
+d++;
+}
+
+}
+document.write("Occurence of @ is: " +c+  "\n");
+ document.write("Occurence of . is: " +d);
+</script>
+
+</body>
+</html>

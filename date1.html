@@ -1,0 +1,19 @@
+<html><head>
+<script language="JavaScript">
+var mon = new Array("Jan", "Feb", "Mar", 
+"Apr", "May", "Jun", "Jul", "Aug", "Sep", 
+"Oct", "Nov", "Dec");
+var d= new Date();
+var dd= d.getDate();
+var mm= d.getMonth();
+var yyyy= d.getFullYear();
+if(dd<10)
+{
+dd= "0"+dd;
+}
+
+var d= dd+ "-" +mon[mm]+ "-" +yyyy;
+document.write(d);
+</script>
+</head>
+</html>
